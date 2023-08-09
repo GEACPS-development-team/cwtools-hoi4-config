@@ -356,6 +356,7 @@ alias[trigger:has_government] = <ideology>
 ### Does country government (ruling party) belong to ideology group.
 ## scope = country
 alias[trigger:has_country_leader_ideology] = <ideology>
+alias[trigger:has_country_leader_ideology] = enum[sub_ideology]
 
 ### Does country government (ruling party) belong to ideology group.
 ## scope = country

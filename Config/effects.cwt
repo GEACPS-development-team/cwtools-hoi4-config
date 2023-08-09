@@ -1164,6 +1164,7 @@ alias[effect:start_civil_war] = {
 	ideology = variable_field
 	### Ruling party of original country.
 	## cardinality = 0..1
+	ruling_party = scope[country]
 	ruling_party = <ideology>
 	## cardinality = 0..1
 	ruling_party = variable_field
